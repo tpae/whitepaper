@@ -1,14 +1,14 @@
-# WLX Token
+# WLX Coin
 
 ## ERC20 - Distributable Token
 
-WLX Tokens will be issued according to `ERC20` [1](https://github.com/ethereum/EIPs/issues/20) Standard, which has all the necessary components required to have a successful token distribution. `ERC20` also enables us to interface with other existing `ERC20` Tokens, providing flexibility where it's required.
+WLX Coins will be issued according to `ERC20` [1](https://github.com/ethereum/EIPs/issues/20) Standard, which has all the necessary components required to have a successful token distribution. `ERC20` also enables us to interface with other existing `ERC20` Tokens, providing flexibility where it's required.
 
 ## ERC865 - Delegated Transfers
 
 We will implement experimental features from `ERC865` [1](https://github.com/ethereum/EIPs/issues/865), which allows delegated transfers that help facilitate token transfers without needing gas. The orders are triggered on off-chain relays, which will execute our smart contract with signed verifiable payload, and will transfer tokens from source to destination.
 
-In order to increase the adoption of our Tokens through our mobile app, `ERC865` will reduce the barrier of entry for our users. They will not be required to purchase or own ether, but they will be required to use our WLX Wallet App.
+In order to increase the adoption of our Coins through our mobile app, `ERC865` will reduce the barrier of entry for our users. They will not be required to purchase or own ether, but they will be required to use our WLX Wallet App.
 
 Our WLX Wallet App will be a custom implementation of a wallet, which will have the functionality to sign delegated transfers and trigger off-chain relay to be executed on the blockchain.
 
@@ -16,22 +16,22 @@ Our WLX Wallet App will be a custom implementation of a wallet, which will have 
 
 Delegated transfers requires a delegate, which will require our Delegate to have access to pool of ETH to facilitate the trade. We can interface with 0x Protocol [1](https://0xproject.com/), which will allow us to execute trades on-chain, interface with our DApp to automate the exchange end-to-end.
 
-### End-to-End Transaction with Only WLX Tokens
+### End-to-End Transaction with Only WLX Coins
 
 Using `ERC865` features, we can successfully execute end-to-end transactions without needing gas.
 
 1. `User A` to send `1 WLX` to `User B`
 2. `User A` executes off-chain function `transferPreSigned` on `Delegate`
 3. `Delegate` verifies `signedPayload` from `User A`
-4. `Delegate` executes transfer of `WLX - fee` from `User A` to `User B` with gas from `DelegateAccount`
+4. `Delegate` executes transfer of `WLX (fee)` from `User A` to `User B` with gas from `DelegateAccount`
 5. `Delegate` executes `trade` of `fee` on `0xProtocolExchange` for `ETH` to `DelegateAccount`
 6. `DelegateAccount` is replenished for additional transactions
 
-The `fee` will need to be calculated (WLX <-> ETH value) prior to executing `transferPreSigned` and should be enough to cover gas price of 2 separate transactions needed to create end-to-end transaction.
+The `fee` will need to be calculated (WLX <> ETH value) prior to executing `transferPreSigned` and should be enough to cover gas price of 2 separate transactions needed to create end-to-end transaction.
 
 # WLXAG Token
 
-Whoslux ecosystem will require interactions with two different tokens, WLX token is necessary to facilitate the transfer of value across the platform, and WLXAG token is necessary to create transferrable object that represents the Authenticated Good.
+Whoslux ecosystem will require interactions with two different tokens, WLX coin is necessary to facilitate the transfer of value across the platform, and WLXAG token is necessary to create transferrable object that represents the Authenticated Good.
 
 ## ERC721 - Non-Fungible Token
 
@@ -51,11 +51,11 @@ CAs can also define validation rules, which will be used to filter incoming auth
 
 ### Issuing WLXAG Tokens
 
-CAs will interface with `Authenticator Smart Contract`, which contains all of necessary functions to issue WLXAG Tokens using WLX Tokens.
+CAs will interface with `Authenticator Smart Contract`, which contains all of necessary functions to issue WLXAG Tokens using WLX Coin.
 
 #### Authenticator Smart Contract
 
-The Authenticator Smart Contract utilizes P2P-based authentication system based on photo recognition and consensus voting system. When a user wants to authenticate the goods, they submit WLX Tokens and product metadata, which is available for execution by the CAs.
+The Authenticator Smart Contract utilizes P2P-based authentication system based on photo recognition and consensus voting system. When a user wants to authenticate the goods, they submit WLX Coin and product metadata, which is available for execution by the CAs.
 
 Authenticator Smart Contract will create an address in IPFS, where user can upload assets and verifiable proofs for CAs to use for authentication.
 
