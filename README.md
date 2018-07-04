@@ -10,41 +10,7 @@ Our primary concept used in our blockchain implementation utilizes a combination
 
 Series of Smart Contracts that focuses on creating interfaces for authenticating goods.
 
-## Authenticator Smart Contract
-
-The Authenticator Smart Contract utilizes P2P-based authentication system based on image recognition and voting system. When a user wants to authenticate the goods, they pass in WLX and product attributes, which is sent to the Community Authenticators.
-
-Each community authenticator member has the folder address in IPFS, where user uploads images for them to see. After authentication is complete, the community authenticator member casts a vote. Community Authenticators follow a system which forces individual members into voting, or risk stopped payment, where each member of the community can cast a vote to *Reject* or *Accept*. The vote reaches a concensus (80%) of *Accepted* then the product is *Accepted*.
-
-Community Authenticators generate a seal of approval on the item, and the item is now autenticated. Attributions are assigned to the proper owner.
-
-  - For each of the good (to be authenticated)
-    - Create a Unique Product Identifier (ETH, WLX, Attributes = {}, State = "Created")
-      - Create a folder on a unique IPFS address
-      - Show User -> (id, ipfs)
-      - Apply Verification (ETH, id, attributes, community, ipfs, State = "Pending or Failed") -> (True/False [based on initial validation])
-    - Community Authenticators
-      - Receive (WLX, id, ipfs, State = "Pending")
-      - Reject (ETH, id, community, State = "Rejected")
-      - Approve (ETH, id, community, State = "Accepted")
-  - Authenticated Goods
-    - Attribute to User (id)
-
-## Marketplace Smart Contract
-
-Marketplace Smart Contract is designed to help users identify and validate the goods, as well as make transactions safely and securely. The digital asset (Attribution to Authenticated Good) transfers to a new user, Blockchain ensures us that transaction is recorded and immutable.
-
-  - For each of the good (already authenticated)
-    - Send Product (ETH, user_id, recipient_id, product_id) -> (True/False)
-  - To sell a product
-    - Create Transaction (ETH, WLX = "Price", user_id, product_id) -> Transaction ID
-    - Purchase (ETH, WLX, transaction_id, user_id) -> (True/False, State = "Pending", Purchase ID)
-    - Status (ETH, State = ["Shipped", "Received", "Completed"], purchase_id, user_id)
-  - To trade a product
-    - Create Trade (ETH, user_id, recipient_id)
-    - Item (ETH, action = ["Post", "Unpost"], trade_id, user_id, WLX, product_id)
-    - Accept Trade (ETH, trade_id, user_id)
-    - Reject Trade (ETH, trade_id, user_id)
+See [WLX](WLX.md) for technical implementation details.
 
 ### Scenarios and Use Cases
 
@@ -59,7 +25,7 @@ Seals can carry different weight, and having proper seals can affect the resale 
 # Whoslux (Web/iOS/Android) App
 
 Whoslux App will be broken down into four major sections.
-  
+
   1. WLX Wallet
   2. Product Catalog
   3. Community Network
@@ -116,7 +82,3 @@ Marketplace Platform will have necessary tools to provide secure and reliable tr
 ## Mobile App Development: 8 ~ 10 Weeks
 
 Mobile App will be built with React Native, with reusable components in JavaScript.
-
-
-
-
