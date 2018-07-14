@@ -76,6 +76,8 @@ The Tag ID public key, signed payload, along with other product attributes, will
 
 #### Product Verification
 
+![](TagID.png)
+
 WLXAG token will contain unique Tag ID public key, which will be used to find and verify the ownership of the product. From WLXAG, owner can verify the signed payload using Tag ID private key, and if verification is successful, then associated WLXAG token is verified with the physical product.
 
 Product authenticity verification is only possible with Tag ID, since it will have the private key in RFID. By allowing verification possible only through the private key in RFID, it will create a digital dependency to the physical product.
