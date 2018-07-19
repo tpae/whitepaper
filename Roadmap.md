@@ -70,10 +70,13 @@ We will need to build:
 ### Stage 5.2 - Product Catalog - 4 weeks
 Product Catalog will use the **Authenticator Smart Contract**, and will have features and functionalities to authenticate products.
 
+Product Catalog will also have basic features such as trade with a user, add items to catalog, and verify ownership.
+
 Product Catalog will be built using:
  - Camera (IPFS integration)
  - RFID Reader API (works natively on iOS and Android)
  - RESTful Authenticator Interface
+ - RESTful Marketplace Interface
 
 ### Stage 5.3 - Marketplace - 4 weeks
 Marketplace will use the **Marketplace Smart Contract**, and will have features and functionalities to buy, sell, trade, and provide safety features.
