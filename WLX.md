@@ -37,7 +37,7 @@ Whoslux Ecosystem will require interactions with two different tokens, WLX coin 
 
 ## ERC721 - Non-Fungible Token
 
-WLXAG token will be issued according to `ERC721` Standards for Non-Fungible Tokens, with attributes assigned to each token to represent ownership, Community Authenticator address, Tag ID, [IPFS](https://ipfs.io/) address to hold assets and additional metadata.
+WLXAG token will be issued according to `ERC721` Standards for Non-Fungible Tokens, with attributes assigned to each token to represent ownership, Network Authenticator address, Tag ID, [IPFS](https://ipfs.io/) address to hold assets and additional metadata.
 
 ## Tamperproof RFID Tag Authentication System (Tag ID)
 
@@ -84,29 +84,29 @@ Product authenticity verification is only possible with Tag ID, since it will ha
 
 If the Tag ID or product is lost, then there's no way to verify the product. Tag ID will always be required to verify the authenticity, creating physical dependency to the digital WLX token.
 
-## Community Authenticators
+## Network Authenticators
 
-Each WLXAG Token is issued by the Community Authenticator (CA). CA's primary objective is to authenticate the goods, in exchange for a fee in WLX.
+Each WLXAG Token is issued by the Network Authenticator (NA). NA's primary objective is to authenticate the goods, in exchange for a fee in WLX.
 
 ### Decentralized Autonomous Organization (DAO)
 
-CAs will operate under DAO, with rules defined during the creation of the CA. CAs will have the ability to add/remove members, change authentication consensus, set fee price, and payment distribution amongst members.
+NAs will operate under DAO, with rules defined during the creation of the NA. NAs will have the ability to add/remove members, change authentication consensus, set fee price, and payment distribution amongst members.
 
-CAs can also define validation rules, which will be used to filter incoming authentication requests.
+NAs can also define validation rules, which will be used to filter incoming authentication requests.
 
 ### Issuing WLXAG Tokens
 
-CAs will interface with `Authenticator Smart Contract`, which contains all of necessary functions to issue WLXAG Tokens using WLX Coin.
+NAs will interface with `Authenticator Smart Contract`, which contains all of necessary functions to issue WLXAG Tokens using WLX Coin.
 
 #### Authenticator Smart Contract
 
-The Authenticator Smart Contract utilizes P2P-based authentication system based on photo recognition and consensus voting system. The authentication process will require Tag ID to be registered, and therefore Tag ID is a requirement for authentication. When a user wants to authenticate the goods, they will send WLX as fees, signed Tag ID payload, and product metadata, which will available for verification by the CAs.
+The Authenticator Smart Contract utilizes P2P-based authentication system based on photo recognition and consensus voting system. The authentication process will require Tag ID to be registered, and therefore Tag ID is a requirement for authentication. When a user wants to authenticate the goods, they will send WLX as fees, signed Tag ID payload, and product metadata, which will available for verification by the NAs.
 
-Authenticator Smart Contract will create an address in IPFS, where user can upload assets and verifiable proofs for CAs to use for authentication.
+Authenticator Smart Contract will create an address in IPFS, where user can upload assets and verifiable proofs for NAs to use for authentication.
 
 ```
   - For Each Goods (to be authenticated)
-    - Authenticate Goods that Pass Initial Validation Criteria (Owner Address, Authentication Fee in WLX, Signed Tag ID payload, CA Address, IPFS Address, Product Attributes)
+    - Authenticate Goods that Pass Initial Validation Criteria (Owner Address, Authentication Fee in WLX, Signed Tag ID payload, NA Address, IPFS Address, Product Attributes)
     - CA Members
       - Approve Authentication (Pre-authenticated Goods Address)
       - Reject Authentication (Pre-authenticated Goods Address)
@@ -119,9 +119,9 @@ Authenticator Smart Contract will create an address in IPFS, where user can uplo
 
 ## Token Features
 
-WLXAG tokens are non-fungible in nature. They have an authentication authority (CAs), which issues a seal of authentication that is freely interchangeable among users.
+WLXAG tokens are non-fungible in nature. They have an authentication authority (NAs), which issues a seal of authentication that is freely interchangeable among users.
 
-Blockchain also introduces immutability and transparency, with open ledger support for every transaction. WLXAG tokens offer trust to both parties (buyer and seller) in a transaction, as long as both parties can agree to trust CAs issuing the token. WLXAG Tokens also provide traceability, can follow history of transactions to further verify it's authenticity.
+Blockchain also introduces immutability and transparency, with open ledger support for every transaction. WLXAG tokens offer trust to both parties (buyer and seller) in a transaction, as long as both parties can agree to trust NAs issuing the token. WLXAG Tokens also provide traceability, can follow history of transactions to further verify it's authenticity.
 
 WLXAG tokens have Tag ID associations, creating physical hard dependency for transactions. WLXAG tokens cannot be used without the Tag ID (product), and product cannot be used in the ecosystem without the WLXAG token.
 

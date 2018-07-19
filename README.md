@@ -14,9 +14,9 @@ See [WLX](WLX.md) for technical implementation details.
 
 ### Scenarios and Use Cases
 
-Luxury Fashion Brand XYZ wishes to create digitally authenticated signatures for each of their manufactured good. XYZ Brand becomes a Community Authenticators and pre-authenticate their products for fighting physical fake goods. Proof of ownership can be proven with a Blockchain ledger.
+Luxury Fashion Brand XYZ wishes to create digitally authenticated signatures for each of their manufactured good. XYZ Brand becomes a Network Authenticators and pre-authenticate their products for fighting physical fake goods. Proof of ownership can be proven with a Blockchain ledger.
 
-Limited Edition Toy User-managed Community has some of the top authenticators. The community becomes a Community Authenticators, and help strengthen limited edition toy market.
+Limited Edition Toy User-managed community has some of the top authenticators. The community becomes a Network Authenticators, and help strengthen limited edition toy market.
 
 #### Different Seals, Different Price, and Different Quality
 
@@ -28,8 +28,8 @@ Whoslux App will be broken down into four major sections.
 
   1. WLX Wallet
   2. Product Catalog
-  3. Community Network
-  4. Community Marketplace
+  3. Social Network
+  4. Marketplace
 
 ## WLX Wallet
 
@@ -39,11 +39,11 @@ The app will have an interface to buy, sell, trade WLX tokens. The Wallet reflec
 
 Product Catalog section is designed to help user authenticate, trade, and sell. The users can share their Catalog to other members, since they are public in the Blockchain.
 
-## Community Network
+## Social Network
 
-Users can join our opt-in community, which links your catalog to your public profile. Our Community Network is ran and managed by Whoslux Team, for better usability and communication.
+Users can join our opt-in community, which links your catalog to your public profile. Our Social Network is ran and managed by Whoslux Team, for better usability and communication.
 
-## Community Marketplace
+## Marketplace
 
 Community members can participate in the Marketplace, which is a decentralized resale marketplace. The platform will be run as a Smart Contract, providing transparent rules. Trades can take place from the app, and will have trading interface.
 
@@ -71,9 +71,9 @@ We will start the development of the Smart Contracts, and begin creating core in
 
 Core Platform will create the bridge for Smart Contracts, exposing REST API.
 
-## Community Platform Development: 8 ~ 10 Weeks
+## Social Network Platform Development: 8 ~ 10 Weeks
 
-Community Platform will also create identity services, hosted outside of Blockchain in order to provide seamless experience.
+Social Network Platform will also create identity services, hosted outside of Blockchain in order to provide seamless experience.
 
 ## Marketplace Platform Development: 8 ~ 10 Weeks
 
