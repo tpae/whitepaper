@@ -69,7 +69,7 @@ Tag ID will have similar features as a wallet, able to sign payloads with a publ
 
 In order to create WLXAG token, one of the requirements is to associate a signed payload from the Tag ID, with the following attributes:
  - Authentication timestamp
- - Community authenticator address
+ - Network authenticator address
  - Nonce
 
 The Tag ID public key, signed payload, along with other product attributes, will be recorded in the blockchain to create WLXAG token. The signed payload can be used by the owner of the product to verify the authenticity of the product.
@@ -107,12 +107,12 @@ Authenticator Smart Contract will create an address in IPFS, where user can uplo
 ```
   - For Each Goods (to be authenticated)
     - Authenticate Goods that Pass Initial Validation Criteria (Owner Address, Authentication Fee in WLX, Signed Tag ID payload, NA Address, IPFS Address, Product Attributes)
-    - CA Members
+    - NA Members
       - Approve Authentication (Pre-authenticated Goods Address)
       - Reject Authentication (Pre-authenticated Goods Address)
   - Approved Authenticated Goods (Reaches Pre-defined Consensus)
-    - Issue WLXAG Token (Owner Address, Signed Tag ID payload, CA Address, IPFS Address, Product Attributes)
-    - Distribute Fees to CA Members (CA Address, WLX)
+    - Issue WLXAG Token (Owner Address, Signed Tag ID payload, NA Address, IPFS Address, Product Attributes)
+    - Distribute Fees to NA Members (NA Address, WLX)
   - Reject Authenticated Goods
     - Issue Partial Refund of Fees (Owner Address, WLX)
 ```
