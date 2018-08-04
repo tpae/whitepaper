@@ -2,11 +2,9 @@
 
 ## Goods Authentication Blockchain
 
-Credibility is critical to a well functioning marketplace for authentic goods where people need to be able easily verify authenticity of product before making a purchase.   
+Credibility is critical to a well functioning marketplace for authentic goods where people need to be able easily verify authenticity of product before making a purchase.
 
 For the first time the blockchain enables us to create an immutable record that can be easily accessed by anyone from anywhere, and with the use of crypto currency we can enable commerce across borders and align incentives.
-
-Idea is to make Whoslux the place where people virtually authenticate and cataloging their collection of sneakers while enabling them to buy and sell
 
 Whoslux is a blockchain implementation that focuses on creating unique identifier for authenticated goods. Luxury goods, or any other authentic goods, are prone to forgery, and require "special attention" in identification.
 

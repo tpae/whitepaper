@@ -1,4 +1,4 @@
-# Whoslux API and Developer Community
+# Developer Community
 
 Whoslux is a technology provider, providing safe, reliable, and transparent service is in our mission. Our goal is to empower the developer community with open source and services.
 

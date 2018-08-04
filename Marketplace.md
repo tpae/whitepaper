@@ -12,6 +12,8 @@ Required fields:
 
 _Manual approval may be required to be authorized to trade on the platform._
 
+## Escrow on the Blockchain
+
 ## Step-by-Step Transaction Process
 
 1. **[Buyer]** Makes a purchase of an authenticated product. Buyer pays for the product cost, which will be held in escrow, and shipping fees. (Marketplace Smart Contract)
