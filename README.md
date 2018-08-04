@@ -14,8 +14,10 @@
 11. [Crowdsale](Crowdsale.md)
 12. [Roadmap](Roadmap.md)
 
-## Progress
+## Appendix
+- [TagID Patent Application](Patent.md)
 
+## Progress
 | Subject                 | Status       | Completed? |
 | ----------------------- | ------------ | ---------- |
 | Abstract                | Under Review | ✅ |
@@ -30,6 +32,3 @@
 | Governance              | In Progress  | 🕐 |
 | Crowdsale               | In Progress  | 🕐 |
 | Roadmap                 | Under Review | ✅ |
-
-## Appendix
-- [TagID Patent Application](Patent.md)

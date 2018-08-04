@@ -13,6 +13,10 @@ Required fields:
 _Manual approval may be required to be authorized to trade on the platform._
 
 ## Escrow on the Blockchain
+In order to create a secure, self-governing marketplace, marketplace smart contract will have built-in escrow feature for secure transactions. Escrow offers protection for both buyers and sellers, and utilizing Tag ID, users can place trust on the product and the token.
+
+## Shipment Tracking
+For every transaction, Whoslux will utilize third-party shipment tracking systems, and use it as a verification mechanism for product shipment and delivery confirmation. Sellers will have to use the generated label provided by Whoslux, in order to protect buyers and sellers.
 
 ## Step-by-Step Transaction Process
 
