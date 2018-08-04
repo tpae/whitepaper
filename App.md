@@ -1,5 +1,4 @@
-Whoslux (Web/iOS/Android) App
----
+# Whoslux (Web/iOS/Android) App
 
 Whoslux App will be broken down into four major sections.
 

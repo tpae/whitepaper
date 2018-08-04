@@ -1,5 +1,4 @@
-Development Roadmap
----
+# Development Roadmap
 
 ## Development Schedule and Timeline
 1. Phase 1 - Crowdsale Smart Contract (Completed) - 3 weeks

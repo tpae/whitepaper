@@ -1,4 +1,4 @@
-## Title: Tamperproof NFC Product Authentication System using Blockchain (Tag ID)
+# Title: Tamperproof NFC Product Authentication System using Blockchain (Tag ID)
 ### Inventor: Terence D. Pae
 
 #### Field of Invention
