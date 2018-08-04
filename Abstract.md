@@ -1,4 +1,5 @@
-# Abstract
+Abstract
+---
 
 ## The Decentralized Exchange for Things
 

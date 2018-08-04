@@ -1,4 +1,5 @@
-# Whoslux Decentralized Resale Marketplace
+Whoslux Decentralized Resale Marketplace
+---
 
 ## Pre-requisites for Marketplace Transactions
 

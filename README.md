@@ -1,4 +1,4 @@
-# Whoslux White Paper (Draft)
+Whoslux White Paper (Draft)
 ---
 
 ## Table of Contents

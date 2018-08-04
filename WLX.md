@@ -1,4 +1,5 @@
-# WLX Coin
+WLX Coin
+---
 
 ## ERC20 - Distributable Token
 
