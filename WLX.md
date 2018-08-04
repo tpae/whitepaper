@@ -10,7 +10,7 @@ We will implement experimental features from [ERC865](https://github.com/ethereu
 
 In order to increase the adoption of our Coins through our mobile app, `ERC865` will reduce the barrier of entry of our users. They will not be required to purchase or own ether, but they will be required to use our WLX Wallet App.
 
-Our WLX Wallet App will be a customized ethereum wallet, which will have the functionality to sign delegated transfers and trigger off-chain relay to be executed on the blockchain.
+Our WLX Wallet App will be a customized Ethereum wallet, which will have the functionality to sign delegated transfers and trigger off-chain relay to be executed on the blockchain.
 
 ### 0x Protocol
 
@@ -39,7 +39,7 @@ Whoslux Ecosystem will require interactions with two different tokens, WLX coin 
 
 WLXAG token will be issued according to `ERC721` Standards for Non-Fungible Tokens, with attributes assigned to each token to represent ownership, Network Authenticator address, Tag ID, [IPFS](https://ipfs.io/) address to hold assets and additional metadata.
 
-## Tamperproof RFID Tag Authentication System (Tag ID)
+## Tamperproof RFID Tag Authentication System (Tag ID), Patent Pending
 
 Each WLXAG token will be associated with Tamperproof RFID Tag Authentication System (Tag ID), which will serve as two-factor authentication when verifying the product.
 
